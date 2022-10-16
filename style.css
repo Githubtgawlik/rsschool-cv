@@ -1,0 +1,134 @@
+/*
+            SPACING SYSTEM (px)
+            2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+            FONT SIZE SYSTEM (px)
+            10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+            */
+/*
+            MAIN COLOR: #9acd32
+            GREY COLOR: #343a40
+            */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  display: block;
+  font-weight: 400;
+  line-height: 1.2;
+  /* position: absolute; */
+}
+
+/* NAV */
+nav {
+  display: flex;
+  /* font-size: 20px; */
+  font-size: 1.25rem;
+  justify-content: flex-end;
+  left: 0;
+  margin: 0 auto;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+  backdrop-filter: blur(2px);
+}
+
+#profile-link {
+  padding: 0 20px 0 20px;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+}
+
+/* HEADER */
+header {
+  align-items: center;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url(img/FCCPPW3.jpg);
+  color: #fff;
+  /* color: orangered; */
+}
+
+.project_container {
+  flex-direction: column;
+  display: flex;
+  margin: -300px 300px 0;
+  /* width: 1200px; */
+}
+
+/* SECTION */
+section {
+  align-content: center;
+  background-color: #9acd32;
+  display: flex;
+  height: 100vh;
+  text-align: left;
+  font-size: 16px;
+  position: absolute;
+  width: 100%;
+}
+
+.container-section {
+  flex-direction: column;
+  height: auto;
+  height: 80%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.portfolio-section {
+  /* flex-direction: column;
+  display: flex; */
+  margin: 16px auto;
+  /* margin-bottom: 50px; */
+}
+
+/* FOOTER */
+footer {
+  background-color: #9acd32;
+  bottom: 20px;
+  font-size: 1rem;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.contact {
+  padding: 8px;
+}
+
+.footer_icon {
+  height: 64px;
+  padding: 12px;
+  /* padding: 12px; */
+}
+
+/* .contact {
+  align-content: flex-end;
+  display: flex;
+  position: relative;
+} */
