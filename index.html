@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tomasz Gawlik CV</title>
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="navbar" id="navbar">
+      <a href="#projects" class="projects" target="_self">HOME</a>
+      <a href="#cv-section" class="cv-section" target="_self">ABOUT ME</a>
+      <a href="#footer" class="footer" target="_self">CONTACT</a>
+    </nav>
+    <!-- HEADER -->
+    <header id="projects">
+      <div class="project_container">
+        <h1 class="project-tile">Curriculum Vitae</h1>
+        <h2 class="project-tile">Tomasz Gawlik</h2>
+        <p>a future frontend developer through RSSchool</p>
+      </div>
+    </header>
+    <!-- SECTION -->
+    <section id="cv-section">
+      <div class="container-section">
+        <img src="img/Tomasz_Gawlik.png" alt="Tomasz photo" height="150">
+        <div class="portfolio-section">
+          <h4>About myself:</h4>
+          <p>I want to learn Front-End Development in RSSchool!</p>
+        </div>
+        <div class="portfolio-section">
+          <h4>Code example:</h4>
+          <p>Pythagorean Triple</p>
+          <code>
+            function isPythagoreanTriple(integers) { integers.sort((a, b) =&gt a
+            -b); let [a, b, c] = integers; return Math.pow(c, 2) == Math.pow(a,
+            2) + Math.pow(b, 2) }</code
+          >
+        </div>
+        <div class="portfolio-section">
+          <h4>Work experience:</h4>
+          <p>Nothing yet…</p>
+        </div>
+        <div class="portfolio-section">
+          <h4>Education and courses:</h4>
+          <ul>
+            <li>
+              Udemy Build Responsive Real-World Websites with HTML and CSS by
+              Jonas Schmedtmann - in progress
+            </li>
+            <li>FreeCodeCamp Responsive Web Design - in progress</li>
+            <li>
+              FreeCodeCamp JavaScript Algorithms and Data Structures - in
+              progress
+            </li>
+            <li>
+              RS School - Javascript/Front-end Mentoring Program (in English) - in progress
+            </li>
+          </ul>
+        </div>
+        <div class="portfolio-section">
+          <h4>Languages:</h4>
+          <ul>
+            <li>English Intermediate - B1</li>
+            <li>Polish Native</li>
+          </ul>
+        </div>
+      </div>
+      <!-- FOOTER -->
+      <footer>
+        <p class="contact" id="footer">Contact</p>
+        <a
+          class="footer_icon"
+          href="https://github.com/Githubtgawlik"
+          target="_blank"
+        >
+          <img src="img/GitHub-Mark-64px.png" alt="github logo" height="75">
+        </a>
+        <time datetime="2022-10-16">October 16</time>
+        <a class="footer_icon" href="https://rs.school/js-en/" target="_blank">
+          <img src="img/RSSchool_logo.jpg" alt="RSSchool logo" height="75">
+        </a>
+      </footer>
+    </section>
+  </body>
+</html>
